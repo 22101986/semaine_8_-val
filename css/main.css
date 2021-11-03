@@ -83,9 +83,35 @@ textarea {
   resize: vertical;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.card {
+  height: 150px;
+  width: 150px;
+  border: solid;
+  margin: 1em;
+  padding: 1em
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: chartreuse;
+}
+.purple {
+  background-color: plum;
+}
+.orange {
+  background-color: orange;
+}
+
+
+
+
 
 /* ==========================================================================
    Helper classes
