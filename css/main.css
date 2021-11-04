@@ -126,6 +126,7 @@ textarea {
   padding: 1em;
   z-index: 5;
   background-color: #222;
+  transition: opacity 600ms;
 }
 
 

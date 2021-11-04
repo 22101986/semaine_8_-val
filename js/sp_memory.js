@@ -37,3 +37,12 @@ hiddenCards[10].onclick = function() {
 hiddenCards[11].onclick = function() {
     hiddenCards[11].classList.toggle("opacity-0");
 }
+
+
+if(hiddenCards[0].classList.contains("opacity-0") && hiddenCards[1].classList.contains("opacity-0")) {
+    hiddenCards[0].classList.add("d-none");
+    hiddenCards[1].classList.add("d-none");
+}else {
+    hiddenCards[0].classList.remove("opacity-0");
+    hiddenCards[1].classList.remove("opacity-0");
+}
