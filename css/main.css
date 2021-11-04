@@ -110,7 +110,23 @@ textarea {
 }
 
 
-
+.size {
+  height: 150px;
+  width: 150px;
+  border: solid;
+  margin: 1em;
+  padding: 1em
+  
+}
+.hiddenCard  {
+  height: 150px;
+  width: 150px;
+  border: solid;
+  margin: 1em;
+  padding: 1em;
+  z-index: 5;
+  background-color: #222;
+}
 
 
 /* ==========================================================================
