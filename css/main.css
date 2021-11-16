@@ -83,7 +83,10 @@ textarea {
   resize: vertical;
 }
 
+#image {
+  background-image: url("../background.png");
 
+}
 .layer {
   position: fixed;
   top: 0;
